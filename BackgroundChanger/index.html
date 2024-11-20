@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Color Changer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .bg-custom-1 {
+        background-color: #e98b8b;
+      }
+      .bg-custom-2 {
+        background-color: #ffd6a5;
+      }
+      .bg-custom-3 {
+        background-color: #fdffb6;
+      }
+      .bg-custom-4 {
+        background-color: #caffbf;
+      }
+      .bg-custom-5 {
+        background-color: #9bf6ff;
+      }
+      .bg-custom-6 {
+        background-color: #a0c4ff;
+      }
+      .bg-custom-7 {
+        background-color: #bdb2ff;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col items-center justify-center min-h-screen">
+    <h1 class="font-bold text-3xl absolute top-4">Background Color Changer</h1>
+    <div class="space-x-2 fixed bottom-4">
+      <button
+        class="bg-custom-1 p-4 rounded border-2 border-black"
+        onclick="changeBackground('bg-custom-1')"
+      >
+        Color 1
+      </button>
+      <button
+        class="bg-custom-2 p-4 rounded border-2 border-black"
+        onclick="changeBackground('bg-custom-2')"
+      >
+        Color 2
+      </button>
+      <button
+        class="bg-custom-3 p-4 rounded border-2 border-black"
+        onclick="changeBackground('bg-custom-3')"
+      >
+        Color 3
+      </button>
+      <button
+        class="bg-custom-4 p-4 rounded border-2 border-black"
+        onclick="changeBackground('bg-custom-4')"
+      >
+        Color 4
+      </button>
+      <button
+        class="bg-custom-5 p-4 rounded border-2 border-black"
+        onclick="changeBackground('bg-custom-5')"
+      >
+        Color 5
+      </button>
+      <button
+        class="bg-custom-6 p-4 rounded border-2 border-black"
+        onclick="changeBackground('bg-custom-6')"
+      >
+        Color 6
+      </button>
+      <button
+        class="bg-custom-7 p-4 rounded border-2 border-black"
+        onclick="changeBackground('bg-custom-7')"
+      >
+        Color 7
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

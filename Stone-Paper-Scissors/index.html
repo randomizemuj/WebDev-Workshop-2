@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/rock.jpg" />
+  </head>
+
+  <body class="bg-[#F7F7E7] text-center m-0 p-0">
+    <div>
+      <h2 class="py-[2vh] text-[5vh] leading-[9vh] bg-[#373A40] text-white">
+        Let's Play this Game!!
+      </h2>
+    </div>
+    <div class="flex flex-wrap justify-center gap-[8vw] my-[8vh]">
+      <div
+        class="choice rounded-full flex justify-center items-center h-[32vh] hover:outline hover:outline-[8px] hover:outline-black cursor-pointer"
+        id="rock"
+      >
+        <img
+          src="./images/rock.jpg"
+          class="h-[32vh] aspect-[1/1] rounded-full"
+        />
+      </div>
+      <div
+        class="choice rounded-full flex justify-center items-center h-[32vh] hover:outline hover:outline-[8px] hover:outline-black cursor-pointer"
+        id="paper"
+      >
+        <img
+          src="./images/paper.jpg"
+          class="h-[32vh] aspect-[1/1] rounded-full"
+        />
+      </div>
+      <div
+        class="choice rounded-full flex justify-center items-center h-[32vh] hover:outline hover:outline-[8px] hover:outline-black cursor-pointer"
+        id="scissors"
+      >
+        <img
+          src="./images/scissors.jpg"
+          class="h-[32vh] aspect-[1/1] rounded-full"
+        />
+      </div>
+    </div>
+
+    <div class="flex justify-center gap-[7vh] pb-[3vh]">
+      <div>
+        <div class="text-[8vh]" id="Upoints">0</div>
+        <p class="text-[3vh]">You</p>
+      </div>
+      <div>
+        <div class="text-[8vh]" id="Cpoints">0</div>
+        <p class="text-[3vh]">Comp</p>
+      </div>
+    </div>
+
+    <div class="mb-[10vh] p-[3vh]">
+      <p
+        class="msg h-[10vh] rounded-2xl px-5 text-white bg-[#373A40] inline-block text-[4vh] p-[1vh]"
+      >
+        Play your move
+      </p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
